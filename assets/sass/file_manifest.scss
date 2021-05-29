@@ -1,0 +1,28 @@
+//abstracts
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+//vendors
+@import './vendors/bootstrap-5.0.1/bootstrap.scss';
+
+//base
+@import './base/reset';
+@import './base/typography';
+@import './base/base';
+
+//layout
+@import './layout/navbar';
+@import './layout/header';
+@import './layout/main';
+@import './layout/author';
+@import './layout/pagination';
+@import './layout/footer';
+
+//components
+
+@import './components/buttons';
+@import './components/links';
+@import './components/pagination';
+@import './components/thumbnails.scss';
+
+
