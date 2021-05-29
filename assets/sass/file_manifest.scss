@@ -3,12 +3,11 @@
 @import './abstracts/mixins';
 
 //vendors
-@import './vendors/bootstrap-5.0.1/bootstrap.scss';
+@import './vendors/bootstrap-5.0.1/bootstrap';
 
 //base
 @import './base/reset';
 @import './base/typography';
-@import './base/base';
 
 //layout
 @import './layout/navbar';
@@ -23,6 +22,6 @@
 @import './components/buttons';
 @import './components/links';
 @import './components/pagination';
-@import './components/thumbnails.scss';
+@import './components/thumbnails';
 
 
