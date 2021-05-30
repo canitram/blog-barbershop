@@ -1,6 +1,22 @@
-.header-blog{
-    background-image: url('../../images/post-image.jpg');
+header{
+    background-image: url("../images/post-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 40vh;
+}
+
+.header-blog{
+    text-align: center;
+    & h1{
+        font-size: $xx-large;
+        font-family: $playfair;
+        font-weight: $font-black;
+        font-style: $italic;
+    }
+}
+
+.header-blog__icon{
+    color: $white;
+
 }

@@ -1,5 +1,22 @@
-.navbar{
+.navbar-barber{
     background-color: $raisin-black;
     color: $white;
+    & a{
+        color: $white;
+    }
+    
+    & a:hover{
+    color: $nickel;
+    }
 }
 
+.navbar-brand{
+    margin-left: auto;
+    & img{
+        width: 5rem;
+    }
+}
+
+.navbar-toggler{
+    color: $white;
+}

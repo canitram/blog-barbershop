@@ -7750,16 +7750,48 @@ progress {
   padding: 0;
 }
 
-.navbar {
+.navbar-barber {
   background-color: #222323;
   color: #fff;
 }
+.navbar-barber a {
+  color: #fff;
+}
+.navbar-barber a:hover {
+  color: #6C6E70;
+}
 
-.header-blog {
-  background-image: url("../../images/post-image.jpg");
+.navbar-brand {
+  margin-left: auto;
+}
+.navbar-brand img {
+  width: 5rem;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+
+header {
+  background-image: url("../images/post-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 40vh;
+}
+
+.header-blog {
+  text-align: center;
+}
+.header-blog h1, .header-blog .h1 {
+  font-size: 70px;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.header-blog__icon {
+  color: #fff;
 }
 
 .footer-page {
