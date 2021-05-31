@@ -7799,6 +7799,46 @@ main {
   padding: 4rem 0;
 }
 
+.main-post {
+  color: #6C6E70;
+  font-size: 16px;
+}
+
+.main-post__title {
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  padding: 1.5rem 0;
+}
+
+.main-post__text {
+  font-family: "Roboto", sans-serif;
+  line-height: 3rem;
+}
+.main-post__text p {
+  margin: 2.5rem 0;
+}
+
+.main-post__buttons {
+  padding-left: 0;
+}
+
+.author-post {
+  /* 
+  algo */
+}
+
+.author-post__profile {
+  width: 20%;
+}
+
+.author-post__user {
+  width: 20%;
+}
+
+.author-post__info {
+  width: 55%;
+}
+
 .footer-page {
   background-color: #222323;
 }
@@ -7832,6 +7872,27 @@ main {
   color: #E6E7E7;
   background-color: #6C6E70;
   margin: 2px 0;
+}
+
+.primary-link {
+  color: #ECBCBA;
+  text-decoration: none;
+}
+.primary-link:hover {
+  color: #222323;
+}
+.primary-link:focus {
+  color: #E6E7E7;
+}
+
+.thumbnail-medium {
+  width: 12rem;
+  border-radius: 50%;
+}
+
+.thumbnail-small {
+  width: 10rem;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

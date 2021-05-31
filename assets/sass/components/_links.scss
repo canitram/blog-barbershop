@@ -1,0 +1,10 @@
+.primary-link{
+    color: $spanish-pink;
+    text-decoration: none;
+    &:hover{
+        color: $raisin-black;
+    }
+    &:focus{
+        color: $platinum;
+    }
+}
