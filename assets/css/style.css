@@ -7751,9 +7751,18 @@ progress {
 }
 
 .navbar-barber {
-  background-color: #222323;
+  background-color: #121619;
   color: #fff;
+  padding: 0.8rem 5rem;
 }
+
+.navbar-brand {
+  padding: auto;
+}
+.navbar-brand img {
+  width: 6rem;
+}
+
 .navbar-barber a {
   color: #fff;
 }
@@ -7761,41 +7770,68 @@ progress {
   color: #6C6E70;
 }
 
-.navbar-brand {
-  margin-left: auto;
-}
-.navbar-brand img {
-  width: 5rem;
-}
-
-.navbar-toggler {
-  color: #fff;
-}
-
 header {
   background-image: url("../images/post-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 40vh;
 }
 
 .header-blog {
   text-align: center;
+  color: #fff;
 }
 .header-blog h1, .header-blog .h1 {
   font-size: 70px;
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-style: italic;
+  padding: 25% 20%;
 }
 
 .header-blog__icon {
   color: #fff;
+  position: relative;
+  bottom: 2.5rem;
+}
+
+main {
+  padding: 4rem 0;
 }
 
 .footer-page {
   background-color: #222323;
+}
+
+.button-pill {
+  border: none;
+  color: #E6E7E7;
+  background-color: #6C6E70;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.button-pill.bp--small {
+  padding: 14px 20px;
+}
+.button-pill.bp--medium {
+  padding: 14px 18px;
+}
+.button-pill:hover {
+  background-color: #D1D1D1;
+  color: #fff;
+}
+.button-pill:focus {
+  border: 2px solid #D1D1D1;
+  color: #E6E7E7;
+  background-color: #6C6E70;
+  margin: 2px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

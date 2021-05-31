@@ -1,1 +1,33 @@
-//This file you will create your style for buttons inside of the project
+.button-pill{
+    border: none;
+    color:$platinum;
+    background-color: $nickel;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: $roboto;
+    font-weight: $font-regular;
+    &.bp--small{
+        padding: 14px 20px;
+    }
+    &.bp--medium{
+        padding: 14px 18px;
+    }
+    &:hover{
+        background-color: $light-gray;
+        color: $white;
+    }
+    &:focus{
+        border: 2px solid $light-gray;
+        color: $platinum;
+        background-color: $nickel;
+        margin: 2px 0;
+
+
+
+    }
+}

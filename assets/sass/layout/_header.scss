@@ -3,20 +3,22 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 40vh;
 }
 
 .header-blog{
     text-align: center;
+    color: $white;
     & h1{
         font-size: $xx-large;
         font-family: $playfair;
         font-weight: $font-black;
         font-style: $italic;
+        padding: 25% 20%;
     }
 }
 
 .header-blog__icon{
     color: $white;
-
+    position: relative;
+    bottom: 2.5rem;
 }

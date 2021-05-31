@@ -1,22 +1,21 @@
 .navbar-barber{
-    background-color: $raisin-black;
+    background-color: $eerie-black;
     color: $white;
-    & a{
-        color: $white;
-    }
-    
-    & a:hover{
-    color: $nickel;
-    }
+    padding: 0.8rem 5rem;    
 }
 
 .navbar-brand{
-    margin-left: auto;
+    padding: auto;
     & img{
-        width: 5rem;
+        width: 6rem;
     }
 }
 
-.navbar-toggler{
-    color: $white;
+.navbar-barber{
+    & a{
+        color: $white;
+        &:hover{
+        color: $nickel;
+        }
+    }
 }
