@@ -1,3 +1,4 @@
+
 .navbar-barber{
     background-color: $eerie-black;
     color: $white;
@@ -19,3 +20,23 @@
         }
     }
 }
+
+.navbar-toggler {
+    padding: $navbar-toggler-padding-y $navbar-toggler-padding-x;
+    @include font-size($navbar-toggler-font-size);
+    line-height: 1;
+    background-color: transparent; // remove default button style
+    border: $border-width solid transparent; // remove default button style
+    @include border-radius($navbar-toggler-border-radius);
+    @include transition($navbar-toggler-transition);
+  
+    &:hover {
+      text-decoration: none;
+    }
+  
+    &:focus {
+      text-decoration: none;
+      outline: 0;
+      box-shadow: 0 0 0 $navbar-toggler-focus-width;
+    }
+  }
