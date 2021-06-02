@@ -1,1 +1,17 @@
-//This file you will create your mixins inside of the project
+@mixin interline-text{
+    font-family: $roboto;
+    line-height: 3rem;
+    }
+
+
+@mixin primary-link{
+    color: $spanish-pink;
+    text-decoration: none;
+    &:hover{
+        color: $raisin-black;
+    }
+    &:focus{
+        color: $platinum;
+    }
+}
+

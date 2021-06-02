@@ -14,8 +14,7 @@ main{
 }
 
 .main-post__text{
-    font-family: $roboto;
-    line-height: 3rem;
+    @include interline-text;
     & p{
         margin: 2.5rem 0;
     }

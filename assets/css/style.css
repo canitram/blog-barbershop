@@ -7823,20 +7823,55 @@ main {
 }
 
 .author-post {
-  /* 
-  algo */
+  font-family: "Roboto", sans-serif;
+  padding: 4rem;
+  border-top: 2px solid #D1D1D1;
 }
 
 .author-post__profile {
-  width: 20%;
+  width: 40%;
+  display: inline-block;
+}
+.author-post__profile .profile__image {
+  display: inline-block;
+  width: 49%;
+}
+.author-post__profile .profile__info {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+.author-post__profile .profile__info * {
+  display: block;
+}
+.author-post__profile .profile__info__username {
+  font-family: "Playfair Display", serif;
+  color: #121619;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
+}
+.author-post__profile .profile__info a {
+  font-size: 18px;
+  font-weight: 300;
+  color: #ECBCBA;
+  text-decoration: none;
+}
+.author-post__profile .profile__info a:hover {
+  color: #222323;
+}
+.author-post__profile .profile__info a:focus {
+  color: #E6E7E7;
 }
 
-.author-post__user {
-  width: 20%;
-}
-
-.author-post__info {
-  width: 55%;
+.author-post__about {
+  width: 59%;
+  display: inline-block;
+  vertical-align: middle;
+  color: #6C6E70;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2rem;
 }
 
 .footer-page {
