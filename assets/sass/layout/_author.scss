@@ -21,7 +21,7 @@
             display: block;
         }
         &--username{
-            font-family: $playfair;
+            font-family: $playfair !important;
             color: $eerie-black;
             font-size: $x-large;
             font-weight: $font-black;

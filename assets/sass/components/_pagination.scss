@@ -1,0 +1,9 @@
+.page-link{
+    color: $eerie-black;
+    font-family: $roboto;
+    &:hover{
+        color: $white;
+        background-color: $eerie-black;
+    }
+}
+

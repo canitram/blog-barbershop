@@ -1,3 +1,9 @@
 .footer-page{
-    background-color: $raisin-black;
+    background-color: $eerie-black;
+    display: grid;
+    justify-content: center;
+    & img{
+        width: 7rem;
+        margin: 5rem;
+    }
 }
