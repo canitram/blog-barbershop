@@ -1,24 +1,37 @@
 header{
-    background-image: url("../images/post-image.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+   background-image: url("../images/post-image.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   & .container{
+      height: 60rem;
+   }
 }
 
 .header-blog{
-    text-align: center;
-    color: $white;
-    & h1{
-        font-size: $xx-large;
-        font-family: $playfair;
-        font-weight: $font-black;
-        font-style: $italic;
-        padding: 25% 20%;
-    }
+   text-align: center;
+   color: $white;
+   & h1{
+      font-size: $xx-large;
+      font-family: $playfair;
+      font-weight: $font-black;
+      font-style: $italic;
+      padding: 25% 20%;
+   }
 }
 
 .header-blog__icon{
-    color: $white;
-    position: relative;
-    bottom: 2.5rem;
+   color: $white;
+   position: relative;
+   bottom: 2.5rem;
+}
+
+@media (max-width: $portable){
+   .header-blog{
+      display: block;
+      & h1{
+         padding: 60% 15%;
+         font-size: 50px;
+      }
+   }
 }

@@ -1,49 +1,65 @@
 //dimensiones del contenedor
 .author-post{
-    font-family: $roboto;
-    padding: 4rem;
-    border-top: 2px solid $light-gray;
+   font-family: $roboto;
+   padding: 4.5rem;
+   border-top: 2px solid $light-gray;
 }
 
 //imagen, nombre y links de perfil
 .author-post__profile{
-    width: 40%;
-    display: inline-block;
-    .profile__image{
-        display: inline-block;
-        width: 49%;
-    }
-    .profile__info{
-        display: inline-block;
-        width: 49%;
-        vertical-align: middle;
-        *{
-            display: block;
-        }
-        &--username{
-            font-family: $playfair !important;
-            color: $eerie-black;
-            font-size: $x-large;
-            font-weight: $font-black;
-            font-style: $italic;
-        }
-        & a{
-            font-size: $large;
-            font-weight: $font-light;
-            @include primary-link;
-        }
-    }
+   width: 40%;
+   display: inline-block;
+   .profile__image{
+      display: inline-block;
+      width: 49%;
+   }
+   .profile__info{
+      display: inline-block;
+      width: 49%;
+      vertical-align: middle;
+      *{
+         display: block;
+      }
+      &--username{
+         font-family: $playfair !important;
+         color: $eerie-black;
+         font-size: $x-large;
+         font-weight: $font-black;
+         font-style: $italic;
+      }
+      & a{
+         font-size: $large;
+         font-weight: $font-light;
+         @include primary-link;
+      }
+   }
 }
 
 //texto sobre el autor
 .author-post__about{
-    width: 59%;
-    display: inline-block;
-    vertical-align: middle;
-    color: $nickel;
-    font-size: $small;
-    font-weight: $font-regular;
-    line-height: 2rem;
-    
+   width: 59%;
+   display: inline-block;
+   vertical-align: middle;
+   color: $nickel;
+   font-size: $small;
+   font-weight: $font-regular;
+   line-height: 2rem;
+   
 }
 
+
+@media (max-width: $portable){
+   .author-post{
+      &__about{
+         display: none;
+      }  
+      &__profile{
+         width: 100%;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         justify-items: center;
+         align-items: center;
+      } 
+   }   
+}

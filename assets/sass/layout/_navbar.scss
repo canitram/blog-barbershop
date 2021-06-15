@@ -1,42 +1,61 @@
-
 .navbar-barber{
-    background-color: $eerie-black;
-    color: $white;
-    padding: 0.8rem 5rem;    
+   background-color: $eerie-black;
+   color: $white;
+   padding: 0.8rem 5rem;    
+   height: 6rem;
+   & a{
+      color: $white;
+      &:hover{
+      color: $nickel;
+      }
+   }
+}
+.navbar-nav {
+   display: flex;
+   flex-direction: column;
+   padding-left: 0;
+   margin-bottom: 0;
+   list-style: none;
+   justify-content: center;
+}
+
+.navbar-collapse{
+   margin-top: 2rem;
+   display: flex;
+   text-align: center;
+   font-size: $large;
 }
 
 .navbar-brand{
-    padding: auto;
-    & img{
-        width: 6rem;
-    }
+   justify-content: space-between;
+   padding: 0;
+   & img{
+      width: 6rem;
+   }
 }
 
-.navbar-barber{
-    & a{
-        color: $white;
-        &:hover{
-        color: $nickel;
-        }
-    }
+.navbar-toggler{
+   &:focus{
+      box-shadow: none;
+   }
+   &-icon{
+   color: $white;
+   font-size: 2rem;
+   }
 }
 
-.navbar-toggler {
-    padding: $navbar-toggler-padding-y $navbar-toggler-padding-x;
-    @include font-size($navbar-toggler-font-size);
-    line-height: 1;
-    background-color: transparent; // remove default button style
-    border: $border-width solid transparent; // remove default button style
-    @include border-radius($navbar-toggler-border-radius);
-    @include transition($navbar-toggler-transition);
-  
-    &:hover {
-      text-decoration: none;
-    }
-  
-    &:focus {
-      text-decoration: none;
-      outline: 0;
-      box-shadow: 0 0 0 $navbar-toggler-focus-width;
-    }
-  }
+
+@media (max-width: $portable){
+   .navbar-barber{
+      height: 7rem;
+   }
+
+   .navbar-brand{
+      width: auto;
+      display: inline-flex;
+      padding: 0;
+      & img{
+         width: 7rem;
+      }
+   }
+}

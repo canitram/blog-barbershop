@@ -1,9 +1,15 @@
 .page-link{
-    color: $eerie-black;
-    font-family: $roboto;
-    &:hover{
-        color: $white;
-        background-color: $eerie-black;
-    }
+   color: $eerie-black;
+   font-family: $roboto;
+   &:hover{
+      color: $white;
+      background-color: $nickel;
+   }
 }
 
+@media (max-width: $portable){
+   .page-link:hover{
+         color: $white;
+         background-color: $eerie-black;
+      }
+}

@@ -15,6 +15,7 @@ $eerie-black: #121619;
 $raisin-black: #222323;
 $nickel: #6C6E70;
 
+
 //Font Family
 
 $playfair:'Playfair Display', serif;
@@ -40,5 +41,24 @@ $font-black: 900;
 
 $italic: italic;
 
-//pagination
+//pagination borders
 $border-radius: 1.25rem;
+
+//Breakpoints
+
+
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1400px
+// );
+
+//breakpoints
+
+$pocket: 420px;
+$portable: 720px;
+$desktop: 960px;
+

@@ -1,12 +1,13 @@
-.thumbnail-medium{
-    width: 12rem;
-    border-radius: 50%;
+.thumbnail{
+   width: 12rem;
+   border-radius: 50%;
+   border: 1px solid $platinum;
 
 }
 
-.thumbnail-small{
-    width: 10rem;
-    border-radius: 50%;
-
+@media(max-width: $pocket){
+   .thumbnail{
+      width: 10rem;
+   }
 }
 
